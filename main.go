@@ -14,7 +14,7 @@ type CircleResp struct {
 type Payload struct {
 	VCS_URL  string `json:"vcs_url"`
 	BuildURL string `json:"build_url"`
-	BuildNum string `json:"build_num"`
+	BuildNum int    `json:"build_num"`
 	Branch   string `json:"branch"`
 }
 
