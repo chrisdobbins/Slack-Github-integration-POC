@@ -7,3 +7,6 @@ jobs:
     steps:
       - checkout
       - run: echo "hello world"
+notify:
+  webhooks:
+    - url: http://fc5104a7.ngrok.io/circlewebhook
