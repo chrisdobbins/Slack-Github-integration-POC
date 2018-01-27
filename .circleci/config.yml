@@ -7,4 +7,4 @@ jobs:
     steps:
       - checkout
       - run: echo "hello world"
-      - go build .
+      - run: go build .
