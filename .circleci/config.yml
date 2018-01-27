@@ -3,6 +3,7 @@ jobs:
   build:
     docker:
       - image: circleci/golang:1.8.1
+    working_directory: /go/src/github.com/chrisdobbins/test-POC
     steps:
       - checkout
       - run: echo "hello world"
