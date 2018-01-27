@@ -30,7 +30,7 @@ func main() {
 		}
 		notification := CircleResp{}
 		fmt.Println(fmt.Sprintf("%+v", body))
-		err = json.Unmarshal(body, notification)
+		err = json.Unmarshal(body, &notification)
 		if err != nil {
 			fmt.Println(err.Error())
 			return
