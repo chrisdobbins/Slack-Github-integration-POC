@@ -3,7 +3,7 @@ This is a proof of concept for a bot that notifies a Slack channel when a new re
 #How To Use (in a development environment)#
 1. Install [ngrok](https://ngrok.com/).
 2. Start ngrok: `ngrok http 8080`. The app is set to listen on port 8080.
-3. Create a new webhook on your GitHub repository (Settings > Webhooks > Add webhook). 
+3. Create a new webhook for your GitHub repository (Settings > Webhooks > Add webhook). 
 * Use the ngrok URL (displayed in the terminal when you started it) as the payload URL.
 * Change the content type to "application/json".
 * Select "Let me select individual events" and pick the Release event. 
