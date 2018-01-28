@@ -13,4 +13,4 @@ This is a proof of concept for a bot that notifies a Slack channel when a new re
 * Create a new incoming webhook for your workspace [here](https://my.slack.com/services/new/incoming-webhook/)
 * Save the webhook URL. It will be necessary for the next step.
 5. In a different terminal, create an environment variable named `SLACK_URL` and set it to the wehbook URL. Without this environment variable, the app will fail.
-6. In the same terminal window, build and run the app like normal. Whenever you a release is created, the Slack channel(s) you chose will get a message with the version number.
+6. In the same terminal window, build and run the app like normal. Whenever a release is created, the Slack channel(s) you chose will get a message with the version number.
