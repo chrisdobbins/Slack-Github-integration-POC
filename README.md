@@ -1,6 +1,6 @@
 This is a proof of concept for a bot that notifies a Slack channel when a new release for a specific repo (this one) has been created on GitHub. To work, it requires a webhook for releases to be set up on GitHub. The webhook hits the `/githubwebhook` route for the server with a JSON payload describing the release. Upon receipt of this payload, the server sends a notification to a dummy Slack workspace set up for this purpose. 
 
-#How To Use (in a development environment)#
+# How To Use (in a development environment) #
 1. Install [ngrok](https://ngrok.com/).
 2. Start ngrok: `ngrok http 8080`. The app is set to listen on port 8080.
 3. Create a new webhook for your GitHub repository (Settings > Webhooks > Add webhook). 
